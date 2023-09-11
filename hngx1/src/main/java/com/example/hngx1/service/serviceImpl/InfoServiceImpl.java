@@ -35,10 +35,10 @@ public class InfoServiceImpl implements InfoService {
         String currentUtcTime = LocalDateTime.now().format(formatter);
 
 
-        response.put("slack_name", "nathaniel_adebesin");
+        response.put("slack_name", slackName);
         response.put("current_day", currentDayOfWeek);
         response.put("utc_time", currentUtcTime);
-        response.put("track", "backend");
+        response.put("track", track);
         response.put("github_file_url", githubFileUrl);
         response.put("github_repo_url", githubRepoUrl);
         response.put("status_code", 200);
