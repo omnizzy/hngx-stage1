@@ -20,7 +20,7 @@ public class InfoServiceImpl implements InfoService {
         Map<String, Object> response = new HashMap<>();
 
         // Construct GitHub URLs
-        String githubFileUrl = "https://github.com/omnizzy/hngx-stage1/blob/main/hngx1/src/main/java/com/example/hngx1/Hngx1Application.java";
+        String githubFileUrl = "https://github.com/omnizzy/hngx-stage1/blob/main/src/main/java/com/example/hngx1/Hngx1Application.java";
         String githubRepoUrl = "https://github.com/omnizzy/hngx-stage1";
 
         // Get current day of the week
