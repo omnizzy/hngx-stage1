@@ -30,7 +30,7 @@ public class InfoServiceImpl implements InfoService {
                 java.util.Locale.ENGLISH
         );
 
-        // Get current UTC time
+        // Get current UTC time.
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'");
         String currentUtcTime = LocalDateTime.now().format(formatter);
 
